@@ -1,0 +1,91 @@
+body {
+    font-family: 'Raleway';
+    background-image: url('mountains-5055387_1920.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.screen {
+    transition: 1s ;
+    position: relative;
+    width: 350px;
+    height: 700px;
+    /* background: #8F8F93 url("summerfield-336672_1920.jpg");
+    background-position: center top;
+    background-repeat: no-repeat no-repeat;
+    background-size: cover; */
+    border-radius: 25px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, .41), 0 15px 12px rgba(0, 0, 0, .56);
+}
+
+/*  */
+
+.screen_title {
+    color: #002771;
+    font-weight: 900;
+    max-width: 80%;
+    margin: 40px;
+    font-size: 35px;
+    line-height: 49px;
+}
+
+.screen_from {
+    width: 85%;
+    margin: 60px auto 0 auto;
+    padding: 25px;
+    background: #fff;
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.30);
+}
+
+.from_title {
+    font-size: 16px;
+    font-weight: 800;
+    color: #002771;
+}
+
+.from_input input {
+    width: 100%;
+    padding: 8px 5px;
+    border: none;
+    margin: 12px 0;
+    border-bottom: 1px solid rgba(88, 88, 90, .31);
+}
+
+::placeholder {
+    color: #8F8F93;
+    font-family: "Raleway";
+    font-weight: 600;
+    letter-spacing: .03em;
+}
+
+.from_button {
+    display: block;
+    border: none;
+    background-color: #00266c;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: .01em;
+    margin: 15px auto 0 auto;
+}
+
+.screen_footer {
+    color: #fff;
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 10px;
+}
+
+.screen_footer strong {
+    font-weight: 800;
+}
+
